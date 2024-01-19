@@ -1,5 +1,5 @@
-import halo from '../assets/image/halo.png';
-import cross from '../assets/image/cross.png';
+import halo from 'D:/GitProj/bluearchive-logo/src/assets/image/halo.png';
+import cross from 'D:/GitProj/bluearchive-logo/src/assets/image/cross.png';
 
 const loadImg = (src: string): Promise<HTMLImageElement> => {
   return new Promise((resolve, reject) => {

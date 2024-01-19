@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="fonts/RoGSans/font.css" />
-  <link rel="stylesheet" type="text/css" href="fonts/GlowSans/font.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://gcore.jsdelivr.net/gh/CeriseBouquet/static@master/fonts/RoGSans_sliced/font.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://gcore.jsdelivr.net/gh/CeriseBouquet/static@master/fonts/GlowSans/font.css" />
   <title class="i18n" data-i18n="title">Blue Archive Logo Generator</title>
 </head>
 
@@ -49,6 +51,16 @@
             <span class="flex-1"><span class="mr-2">Y</span><input type="number" placeholder="Type here" value="0"
                 class="input input-bordered input-sm input-primary w-32" id="graphY" /></span>
           </div>
+          <div class="flex items-center gap-2">
+            <div class="i18n" data-i18n="subtitle">Sub Title</div>
+            <input id="subtitle" type="text" placeholder="Type here" value="ブルーアーカイブ"
+              class="input input-bordered input-sm input-primary w-50" />
+          </div>
+          <div class="flex items-center gap-2 my-4">
+            <div class="i18n" data-i18n="scale-level">Scale Level</div>
+            <input type="number" placeholder="1" value="1" min="1" max="4"
+                class="input input-bordered input-sm input-primary w-32" id="scaleLevel" />
+          </div>
         </div>
       </div>
     </div>
@@ -87,5 +99,6 @@
   </footer>
   <script type="module" src="/src/main.ts"></script>
 </body>
+
 
 </html>
